@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeeb58fc-1151-414d-aa17-4aaccd95031e" name="Changes" comment="SingletonLazy">
-      <change afterPath="$PROJECT_DIR$/src/onedigitalinnovation/SingletonEagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/onedigitalinnovation/SingletonLazyHolder.java" afterDir="false" />
+    <list default="true" id="eeeb58fc-1151-414d-aa17-4aaccd95031e" name="Changes" comment="Instanciando e Teste">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/Strategy/Comportamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/Strategy/ComportamentoAgressivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/Strategy/ComportamentoDefensivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/Strategy/ComportamentoNormal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/Strategy/Robo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onedigitalinnovation/SingletonEagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/SingletonEagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onedigitalinnovation/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/SingletonLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/onedigitalinnovation/SingletonLazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/onedigitalinnovation/Singleton/SingletonLazyHolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,9 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eHIdIBcIk6FNn9N4Qk5hSLVoUA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,8 +46,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -51,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="onedigitalinnovation.Singleton.Strategy" />
       <recent name="onedigitalinnovation" />
     </key>
   </component>
@@ -69,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711555163395</updated>
-      <workItem from="1711555164766" duration="1995000" />
+      <workItem from="1711555164766" duration="2971000" />
+      <workItem from="1711753588578" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="SingletonLazy">
       <option name="closed" value="true" />
@@ -79,7 +92,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711556123890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SingletonEagle">
+      <option name="closed" value="true" />
+      <created>1711560012896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711560012896</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SingletonHolder">
+      <option name="closed" value="true" />
+      <created>1711560033813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711560033813</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SingletonHolder">
+      <option name="closed" value="true" />
+      <created>1711560038666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711560038666</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Instanciando e Teste">
+      <option name="closed" value="true" />
+      <created>1711560579157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711560579157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +132,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SingletonLazy" />
-    <option name="LAST_COMMIT_MESSAGE" value="SingletonLazy" />
+    <MESSAGE value="SingletonEagle" />
+    <MESSAGE value="SingletonHolder" />
+    <MESSAGE value="Instanciando e Teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instanciando e Teste" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>6</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

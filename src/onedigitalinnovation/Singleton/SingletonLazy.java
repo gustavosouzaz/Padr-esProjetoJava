@@ -1,4 +1,4 @@
-package onedigitalinnovation;
+package onedigitalinnovation.Singleton;
 
 public class SingletonLazy {
 
