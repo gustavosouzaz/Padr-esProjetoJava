@@ -1,3 +1,4 @@
+import onedigitalinnovation.Singleton.Facade.Facade;
 import onedigitalinnovation.Singleton.SingletonEagle;
 import onedigitalinnovation.Singleton.SingletonLazy;
 import onedigitalinnovation.Singleton.SingletonLazyHolder;
@@ -44,6 +45,12 @@ public class Main {
         robo.mover();
         robo.mover();
 
+        //FACADE
+
+
+        Facade facade = new Facade();
+
+        facade.migrarCliente("Gustavo", "22430041");
 
 
     }
